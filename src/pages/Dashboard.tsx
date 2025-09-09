@@ -22,7 +22,7 @@ const Dashboard = () => {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <Shield className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold text-foreground">TransparencyChain</h1>
+            <h1 className="text-2xl font-bold text-foreground">Transparency Chain</h1>
           </div>
           <Button variant="outline" onClick={() => navigate('/login')}>
             Logout

@@ -67,7 +67,7 @@ const Index = () => {
       <div className="container mx-auto px-4 py-16 text-center text-white">
         <div className="flex items-center justify-center space-x-3 mb-8">
           <Shield className="h-16 w-16 text-government-gold" />
-          <h1 className="text-6xl font-bold">TransparencyChain</h1>
+          <h1 className="text-6xl font-bold">Transparency Chain</h1>
         </div>
         
         <h2 className="text-3xl font-semibold mb-6">
