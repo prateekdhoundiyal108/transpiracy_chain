@@ -35,9 +35,9 @@ const Index = () => {
             Access Platform
           </Button>
           <Button 
-            variant="outline" 
+            variant="secondary" 
             size="lg" 
-            className="text-lg px-8 py-6 border-white/30 text-white hover:bg-white/10"
+            className="text-lg px-8 py-6 bg-white/20 backdrop-blur-sm text-white border border-white/30 hover:bg-white/30"
             onClick={() => navigate('/dashboard')}
           >
             <Eye className="mr-2 h-5 w-5" />
