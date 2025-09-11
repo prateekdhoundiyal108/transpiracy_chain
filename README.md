@@ -1,73 +1,97 @@
-# Welcome to your Lovable project
+# Transpiracy Chain
 
-## Project info
+A modern web application built with React, TypeScript, and Vite, featuring a beautiful UI powered by shadcn/ui and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/ade3ef93-a4ff-4be3-8eb9-9457984aafb6
+## 🚀 Features
 
-## How can I edit this code?
+- ⚡ Blazing fast development with Vite
+- 🎨 Beautiful UI components with shadcn/ui
+- 🎯 Type-safe with TypeScript
+- 🎨 Styled with Tailwind CSS
+- 🛣️ Client-side routing with React Router
+- 🔄 State management with React Query
+- 📱 Responsive design
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Frontend Framework**: React 18
+- **Language**: TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS + shadcn/ui
+- **Form Handling**: React Hook Form
+- **State Management**: React Query
+- **UI Components**: Radix UI Primitives
+- **Icons**: Lucide React
+- **Date Picking**: react-day-picker
+- **Notifications**: Sonner
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ade3ef93-a4ff-4be3-8eb9-9457984aafb6) and start prompting.
+## 🚀 Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v18 or later recommended)
+- npm (v9 or later) or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/transpiracy-chain.git
+   cd transpiracy-chain
+   ```
 
-Follow these steps:
+2. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. Start the development server:
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Available Scripts
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint
+
+## 📁 Project Structure
+
+```
+├── public/          # Static files
+├── src/
+│   ├── components/  # Reusable UI components
+│   ├── data/        # Static data
+│   ├── hooks/       # Custom React hooks
+│   ├── lib/         # Utility functions
+│   └── ...          # Other source files
+├── .eslintrc.js     # ESLint configuration
+├── index.html       # Main HTML file
+├── package.json     # Project dependencies and scripts
+├── tailwind.config.ts # Tailwind CSS configuration
+└── tsconfig.json    # TypeScript configuration
 ```
 
-**Edit a file directly in GitHub**
+## 🤝 Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-**Use GitHub Codespaces**
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## What technologies are used for this project?
+## 🙏 Acknowledgments
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ade3ef93-a4ff-4be3-8eb9-9457984aafb6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- [Vite](https://vitejs.dev/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Radix UI](https://www.radix-ui.com/)
