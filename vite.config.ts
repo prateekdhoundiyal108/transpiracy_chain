@@ -7,8 +7,8 @@ import type { UserConfig } from "vite";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }): UserConfig => {
   // Load environment variables
-  const env = loadEnv(mode, process.cwd(), '');
-  
+  const env = loadEnv(mode, process.cwd(), "");
+
   return {
     server: {
       host: "::",
@@ -20,10 +20,9 @@ export default defineConfig(({ mode }): UserConfig => {
       port: 8080,
       strictPort: true,
     },
-    plugins: [
-      react(),
-      mode === "development" && componentTagger()
-    ].filter(Boolean),
+    plugins: [react(), mode === "development" && componentTagger()].filter(
+      Boolean
+    ),
     resolve: {
       alias: [
         {
